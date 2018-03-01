@@ -4,10 +4,10 @@
 	error_reporting( ~E_DEPRECATED & ~E_NOTICE );
 	
 	
-	define('DBHOST', 'localhost');
-	define('DBUSER', 'root');
-	define('DBPASS', 'lucky18');
-	define('DBNAME', 'dbtest');
+	define('DBHOST', 'sql9.freemysqlhosting.net');
+	define('DBUSER', 'sql9223380');
+	define('DBPASS', '3h85IYkaSE');
+	define('DBNAME', 'sql9223380');
 	
 	$conn = mysql_connect(DBHOST,DBUSER,DBPASS);
 	$dbcon = mysql_select_db(DBNAME);
